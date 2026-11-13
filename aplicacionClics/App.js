@@ -28,6 +28,12 @@ export default function App() {
       hour12: false
     });
 
+    // Reiniciar el contador y eliminar los registros
+    const reiniciarContador = () => {
+      setLikes(0);
+      setRegistros([]);
+    };
+
     // Crear el nuevo registro
     const nuevoRegistro = {
       id: Date.now().toString(),
