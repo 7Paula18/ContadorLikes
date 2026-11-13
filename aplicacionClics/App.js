@@ -35,6 +35,25 @@ export default function App() {
       setRegistros([]);
     };
 
+    // Función para confirmar el reinicio
+    const confirmarReinicio = () => {
+      Alert.alert(
+        "Reiniciar contador",
+        "¿Estás segura de que deseas eliminar todos los likes?",
+        [
+          {
+            text: "Cancelar",
+            style: "cancel"
+          },
+          {
+            text: "Reiniciar",
+            style: "destructive",
+            onPress: reiniciarContador
+          }
+        ]
+      );
+    };
+
     // Crear el nuevo registro
     const nuevoRegistro = {
       id: Date.now().toString(),
