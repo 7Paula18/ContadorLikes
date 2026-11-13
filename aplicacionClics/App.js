@@ -103,11 +103,17 @@ export default function App() {
         }
         renderItem={({ item }) => (
           <View style={styles.fila}>
-            <Text style={styles.textoFila}>
-              Like #{item.numero}
-            </Text>
+            <View>
+              <Text style={styles.numeroLike}>
+                Like #{item.numero}
+              </Text>
 
-            <Text style={styles.textoFila}>
+              <Text style={styles.textoHora}>
+                Registro realizado
+              </Text>
+            </View>
+
+            <Text style={styles.textoHora}>
               {item.hora}
             </Text>
           </View>
