@@ -5,7 +5,8 @@ import {
   Text,
   TouchableOpacity,
   FlatList,
-  StyleSheet
+  StyleSheet,
+  Alert
 } from "react-native";
 
 export default function App() {
