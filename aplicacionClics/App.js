@@ -195,6 +195,20 @@ const styles = StyleSheet.create({
   textoFila: {
     fontSize: 14,
     color: "#333"
-  }
+  },
+
+  botonReiniciar: {
+    backgroundColor: "#dc2626",
+    paddingVertical: 12,
+    paddingHorizontal: 25,
+    borderRadius: 8,
+    marginTop: 12 
+  },
+
+  textoBotonReiniciar: {
+    color: "white",
+    fontSize: 15,
+    fontWeight: "bold"
+  },
 
 });
