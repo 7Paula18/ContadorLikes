@@ -39,7 +39,7 @@ export default function App() {
     const confirmarReinicio = () => {
       Alert.alert(
         "Reiniciar contador",
-        "¿Estás segura de que deseas eliminar todos los likes?",
+        "¿Estás segura(o) de que deseas eliminar todos los likes?",
         [
           {
             text: "Cancelar",
@@ -100,7 +100,7 @@ export default function App() {
 
         <TouchableOpacity
           style={styles.botonReiniciar}
-          onPress={reiniciarContador}
+          onPress={confirmarReinicio}
         >
           <Text style={styles.textoBotonReiniciar}>
             Reiniciar contador
