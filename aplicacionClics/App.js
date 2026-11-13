@@ -78,6 +78,15 @@ export default function App() {
           </Text>
         </TouchableOpacity>
 
+        <TouchableOpacity
+          style={styles.botonReiniciar}
+          onPress={reiniciarContador}
+        >
+          <Text style={styles.textoBotonReiniciar}>
+            Reiniciar contador
+           </Text>
+        </TouchableOpacity>
+
       </View>
 
       <Text style={styles.subtitulo}>
