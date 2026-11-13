@@ -217,4 +217,15 @@ const styles = StyleSheet.create({
     fontWeight: "bold"
   },
 
+  numeroLike: {
+  fontSize: 16,
+  fontWeight: "bold",
+  color: "#2563eb"
+},
+
+textoHora: {
+  fontSize: 13,
+  color: "#64748b"
+},
+
 });
